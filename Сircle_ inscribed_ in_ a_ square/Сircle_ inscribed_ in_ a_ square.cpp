@@ -47,7 +47,7 @@ public:
 
 
 class CircleInSquare:public Circle, public Square {//клас «Коло, вписане в квадрат».
-
+protected:
     int diametr;//діаметр кола
 public:
     CircleInSquare(int diametr) : Circle(radius * 2), Square(side) {
